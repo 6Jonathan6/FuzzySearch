@@ -5,7 +5,11 @@
   "author": "6Jonathan6 <jpr1993mm@hotmail.com>",
   "license": "MIT",
   "private": true,
+  "ava":{
+    "require":["esm"]
+  },
   "scripts": {
+    "test": "ava -v ./tests/ --color ",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
@@ -18,12 +22,14 @@
     "not ie <= 8"
   ],
   "devDependencies": {
+    "ava": "^0.25.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
+    "esm": "^3.0.72",
     "file-loader": "^1.1.4",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",

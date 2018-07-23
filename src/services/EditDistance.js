@@ -104,5 +104,6 @@ function search(transactions,searchInput){
 
 export {
     search,
+    editDistance
     
 }

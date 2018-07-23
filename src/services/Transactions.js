@@ -34,5 +34,6 @@ function getTrans(){
 }
 
 export {
-    getTrans
+    getTrans,
+    validDate
 }
