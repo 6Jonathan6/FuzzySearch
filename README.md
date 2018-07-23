@@ -1,6 +1,6 @@
 # Fuzzy Search 
 
- Clip code challenge
+ [Up and running](http://clipcodechallenge.s3-website-us-east-1.amazonaws.com/)
 ## Search algorithm
 At [src/services/EditDistances.js!](https://github.com/6Jonathan6/FuzzySearch/blob/master/src/services/EditDistance.js)\
 I thougth that the Edit distance algorithm  was the algorithm which best solve fuzzy search problem.\
