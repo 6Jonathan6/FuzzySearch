@@ -2,7 +2,7 @@
 
  Clip code challenge
 ## Search algorithm
-Is locate at /src/services/EditDistance.js
+At [src/services/EditDistances.js!](https://github.com/6Jonathan6/FuzzySearch/blob/master/src/services/EditDistance.js)\
 I thougth that the Edit distance algorithm  was the algorithm which best solve fuzzy search problem.\
 The function editDistance returns the edit distance between two string in this case the search input and the content of every field
 of a transaction object.\
@@ -29,7 +29,7 @@ If s[i] doesn't equal t[j], the cost is 1.
 6. After the iteratio
 
 ## search function
-At src/services/EditDistances.js\
+At [src/services/EditDistances.js!](https://github.com/6Jonathan6/FuzzySearch/blob/master/src/services/EditDistance.js)\
 The search function returns a list of transactions which follow
 the criteria below:
   1. If search input.length === "" returns all the transactions.
