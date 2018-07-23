@@ -29,7 +29,7 @@ If s[i] doesn't equal t[j], the cost is 1.
 6. After the iteratio
 
 ## search function
-At src/services/EditDistances.js
+At src/services/EditDistances.js\
 The search function returns a list of transactions which follow
 the criteria below:
   1. If search input.length === "" returns all the transactions.
