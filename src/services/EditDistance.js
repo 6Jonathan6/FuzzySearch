@@ -1,10 +1,12 @@
  function editDistance(sourceString,targetString){
+     //step 1
     const resultArray= []
     const sourceArray = sourceString.toLowerCase().split('')
     const targetArray = targetString.toLowerCase().split('')
     sourceArray.unshift('')
     targetArray.unshift('')
 
+    //step 2
     resultArray.push(sourceArray.map(function(element){
         return arguments[1]
     }))
@@ -14,6 +16,7 @@
     
     resultArray.splice(1,1)
     
+    //step 3 
     sourceArray.forEach(function(element){
         if(arguments[1] === 0){
             return
@@ -30,7 +33,8 @@
                     let minor = null
                     let targetChar = element 
                     let j = arguments[1]
-                
+
+                //step 4 and 5
                     if(sourceChar === targetChar){
                         minor = getMinor(0,resultArray,i,j)
                 
@@ -42,8 +46,11 @@
             })
         }
     })
+    //step 6
     return resultArray[ resultArray.length - 1 ][ resultArray[ resultArray.length - 1 ].length - 1 ]
 }
+
+//step4
 function getMinor(cost,resultArray,i,j){
     const neighbors = [resultArray[j-1][i] + 1,resultArray[j][i-1] + 1, resultArray[j-1][i-1] + cost] 
 
