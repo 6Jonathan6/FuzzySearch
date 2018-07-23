@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  #app {
+    color: #2c3e50;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+/* search result list styles*/  
+  ul.transactionsList{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  li {
+    margin: 0 ;
+  }
+
+
+  /*form styles*/
+  fieldset{
+      border: none;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+  }
+
+  legend{
+      display: none;
+      margin:0;
+      padding: 0;
+
+  }
+
+  form  fieldset ul{
+    max-width: 100vw;
+    height: auto;
+    flex-flow: column;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    max-width: 90%;
+    color:rgb(110, 106, 106);
+  }
+
+  label p {
+      padding: 1rem;
+  }
+  
+  input[type=text]{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    color:rgb(58, 53, 53);
+    background:white;
+    border:none;
+    height: 3rem;
+    border-bottom: 2px solid black;
+  }
