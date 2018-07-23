@@ -2,6 +2,10 @@
 
 Give it a try\
  [Up and running](http://clipcodechallenge.s3-website-us-east-1.amazonaws.com/)
+ * if you want to perform a search by day write somthing like: thu mon sat
+ * if you want to perform a search by month write somthing like: jun dec  feb
+ * if you want to perform a search by amount write somthing like: 0.45
+ * if you want to perform a search by creditcard write somthing like: 2544
 ## Search algorithm
 At [src/services/EditDistances.js!](https://github.com/6Jonathan6/FuzzySearch/blob/master/src/services/EditDistance.js)\
 I thougth that the Edit distance algorithm  was the algorithm which best solve fuzzy search problem.\
