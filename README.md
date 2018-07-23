@@ -1,6 +1,6 @@
 # Fuzzy Search 
 
-Give it a try\
+Give it a try! at\
  [Up and running](http://clipcodechallenge.s3-website-us-east-1.amazonaws.com/)
  * if you want to perform a search by day write somthing like: thu mon sat
  * if you want to perform a search by month write somthing like: jun dec  feb
